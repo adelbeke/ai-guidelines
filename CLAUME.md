@@ -49,6 +49,8 @@ _Stack-Specific Guidelines_
 # React Native & Expo
 - MUST use functional components with hooks, NEVER class components
 - MUST create test files close to tested files with .test.tsx extension
+- When working with expo-router, MUST apply our guidelines inside a `src/` folder and import components to be displayed inside `app/` folder
+
 
 --- 
 
