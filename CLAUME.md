@@ -49,3 +49,9 @@ _Stack-Specific Guidelines_
 # React Native & Expo
 - MUST use functional components with hooks, NEVER class components
 - MUST create test files close to tested files with .test.tsx extension
+
+--- 
+
+_Related Files To Read_
+
+// Add files to read for the LLM.
