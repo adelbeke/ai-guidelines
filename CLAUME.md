@@ -29,7 +29,7 @@ These guidelines are MANDATORY. You MUST follow them exactly.
 - MUST design classes and pure functions as "black boxes" - NO external state dependencies or singletons. ALWAYS use dependency injection
 
 # Required Workflow Steps
-- MUST run typecheck after making code changes. If `npm run typecheck` doesn't exist, ASK for the correct command
+- MUST run typecheck after making code changes. If `npm run type-check` doesn't exist, ASK for the correct command
 - MUST run single test files using `npx jest <test-file-name> --coverage=false` instead of full test suite
 - MUST verify clean architecture boundaries are maintained after changes
 - MUST confirm no React code exists in business/ or data/ layers
