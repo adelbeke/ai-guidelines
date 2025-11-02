@@ -14,6 +14,7 @@ These guidelines are MANDATORY. You MUST follow them exactly.
 # General Code Style
 - MUST follow clean architecture principles with layers and boundaries
 - NEVER mix layer concerns - each layer has strict boundaries
+- ALWAYS use third person while write tests - `it('shows')` and not `it('should show')`
 
 # TypeScript Code Style
 - MUST use ES modules (import/export) syntax, NEVER CommonJS (require)
