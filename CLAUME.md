@@ -15,6 +15,7 @@ These guidelines are MANDATORY. You MUST follow them exactly.
 - MUST follow clean architecture principles with layers and boundaries
 - NEVER mix layer concerns - each layer has strict boundaries
 - ALWAYS use third person while write tests - `it('shows')` and not `it('should show')`
+- NEVER add useless comment
 
 # TypeScript Code Style
 - MUST use ES modules (import/export) syntax, NEVER CommonJS (require)
@@ -51,6 +52,7 @@ _Stack-Specific Guidelines_
 - MUST use functional components with hooks, NEVER class components
 - MUST create test files close to tested files with .test.tsx extension
 - When working with expo-router, MUST apply our guidelines inside a `src/` folder and import components to be displayed inside `app/` folder
+- When testing, NEVER use `;(foo as jest.Mock)`, ALWAYS create a variable with `jest.mocked`
 
 
 --- 
